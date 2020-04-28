@@ -1,0 +1,25 @@
+                                        CLASS GRADES          27/04/20   PAGE01
+
+     ID.NO     NAME     AVERAGE
+
+     01     UDAY                     025
+
+     02     UDIT                     050
+
+     03     CHAN                     075
+
+     04     VIBH                     040
+
+     05     XXYY                     028                                        CLASS GRADES          27/04/20   PAGE02
+
+     ID.NO     NAME     AVERAGE
+
+     06     ABCD                     013
+
+     07     PQRS                     038
+
+     08     MIKE                     042
+
+     09     SHAM                     031
+
+     10     LAST                     029
