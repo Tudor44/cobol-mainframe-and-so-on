@@ -1,8 +1,4 @@
-
-      * Author: UDAY PRASAD
-      * Date: 22/04/20
-      * Purpose: TO CALCULATE COMPOUND INTEREST
-      * Tectonics: cobc
+      *PROGRAM FOR CALCULATE COMOUND INTEREST
       ******************************************************************
        IDENTIFICATION DIVISION.
        PROGRAM-ID. COMPOUND-INTEREST.
