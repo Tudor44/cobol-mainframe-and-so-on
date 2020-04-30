@@ -1,5 +1,10 @@
 ### Useful Links:
 
-- Reference Book [Structured Cobol Programming 9th edition Stern & Stern](https://www.amazon.com/Structured-Cobol-Programming-Year-Beyond/dp/0471318817/ref=sr_1_1?dchild=1&keywords=structured+cobol+stern&qid=1587936393&s=books&sr=1-1 )
+- Reference Book for COBOL: [Structured Cobol Programming 9th edition Stern & Stern](https://www.amazon.com/Structured-Cobol-Programming-Year-Beyond/dp/0471318817/ref=sr_1_1?dchild=1&keywords=structured+cobol+stern&qid=1587936393&s=books&sr=1-1 )
+
+- [Enterprise COBOL for z/OS books and manuals](https://www.ibm.com/support/pages/enterprise-cobol-zos-documentation-library)
+
+- [Open Mainframe Project](https://www.openmainframeproject.org/)
 
 
+ 
