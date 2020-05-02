@@ -1,0 +1,39 @@
+
+
+                                                  MONTHLY STATUS REPORT                                  PAGE001
+
+                             DEPT          SALESPERSON NO.          AMT OF SALES
+
+                             01            12345                         0100
+
+                             01            12346                         0200
+
+                             01            12347                         0300
+                                                                                                  TOTAL FOR DEPARTMENT IS: 0600
+
+                             02            12229                         0877
+
+                             02            12234                         0008
+                                                                                                  TOTAL FOR DEPARTMENT IS: 1485
+
+                                                  MONTHLY STATUS REPORT                                  PAGE002
+
+                             DEPT          SALESPERSON NO.          AMT OF SALES
+
+                             03            15645                         0098
+
+                             03            12321                         0198
+                                                                                                  TOTAL FOR DEPARTMENT IS: 1781
+
+                             04            12991                         0343
+
+                             04            16732                         0177
+
+                             04            16437                         0493
+
+                                                  MONTHLY STATUS REPORT                                  PAGE003
+
+                             DEPT          SALESPERSON NO.          AMT OF SALES
+
+                             04            09878                         0056
+                                                                                                  TOTAL FOR DEPARTMENT IS: 1781
