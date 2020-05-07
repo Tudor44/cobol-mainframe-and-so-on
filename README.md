@@ -1,5 +1,5 @@
 
-### COBOL and MAINFRAMES stuff!
+### COBOL and MAINFRAME stuff!
 
 This repository was born during my training taught by Mr Uday Prasad in Open Mainframe Community.
 I have it create this for share my learning experience in COBOL and the world of mainframes.
