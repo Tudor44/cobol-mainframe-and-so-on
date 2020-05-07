@@ -1,10 +1,11 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. READ-INDEX.
+       PROGRAM-ID. READ-INDEX-FILE.
+       AUTHOR. GAETANO.
        ENVIRONMENT DIVISION.
            INPUT-OUTPUT SECTION.
            FILE-CONTROL.
-       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/idx1.txt"
+       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/file1.txt"
                ORGANISATION IS INDEXED
                ACCESS IS SEQUENTIAL
                RECORD KEY IS ACCT-NO-IN
@@ -40,7 +41,6 @@
            STOP RUN.
 
        200-DISPLAY-RTN.
-      *   MOVE ACCT-NO-IN TO IN-REC
            DISPLAY " THE RECORD READ IS"
            DISPLAY ACCT-NO-IN
            DISPLAY AMT-DUE-IN.

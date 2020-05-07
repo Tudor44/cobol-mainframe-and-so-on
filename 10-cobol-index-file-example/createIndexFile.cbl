@@ -1,12 +1,12 @@
-
        IDENTIFICATION DIVISION.
        PROGRAM-ID. CREATE-INDEX-FILE.
+       AUTHOR. GAETANO.
        ENVIRONMENT DIVISION.
            INPUT-OUTPUT SECTION.
            FILE-CONTROL.
-       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/idx.txt"
+       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/file.txt"
            ORGANISATION IS LINE SEQUENTIAL.
-       SELECT OUT-FILE ASSIGN TO "/Users/gaetanodorsi/idx1.txt"
+       SELECT OUT-FILE ASSIGN TO "/Users/gaetanodorsi/file1.txt"
            ORGANISATION IS INDEXED
            ACCESS IS SEQUENTIAL
            RECORD KEY IS ACCT-NO-OUT
@@ -49,10 +49,12 @@
                INVALID KEY PERFORM 400-ERROR-RTN
            END-WRITE.
 
-       400-ERROR-RTN.
-           IF WS-STATUS = 22
-            DISPLAY "YOU HAVE A DUPLICATE RECORD"" " WS-STATUS
-           ELSE
-           IF WS-STATUS = 21
-               DISPLAY " OUT OF SEQUENCE ERROR" WS-STATUS
+        400-ERROR-RTN.
+            IF WS-STATUS = 22
+                   DISPLAY " YOU HAVE A DUPLICATE RECORD"" "  WS-STATUS
+            ELSE
+             IF WS-STATUS = 21
+                 DISPLAY  " OUT OF SEQUEMCE ERROR"  "  "  WS-STATUS
+            ELSE
+                 DISPLAY " WRITTING ERROR"
            END-IF.

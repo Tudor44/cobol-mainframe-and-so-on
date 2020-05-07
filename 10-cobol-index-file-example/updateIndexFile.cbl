@@ -1,10 +1,11 @@
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. READ-INDEX.
+       PROGRAM-ID. UPDATE-INDEX-FILE.
+       AUTHOR. GAETANO.
        ENVIRONMENT DIVISION.
            INPUT-OUTPUT SECTION.
            FILE-CONTROL.
-       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/idx1.txt"
+       SELECT IN-FILE ASSIGN TO "/Users/gaetanodorsi/file1.txt"
                ORGANISATION IS INDEXED
                ACCESS IS RANDOM
                RECORD KEY IS ACCT-NO-IN
@@ -31,7 +32,6 @@
        100-MAIN-RTN.
          OPEN I-O IN-FILE
          PERFORM 200-ACCEPT-AND-CORRECT-RTN UNTIL NO-MORE-RECORDS
-      *  DISPLAY WS-STATUS
          CLOSE IN-FILE
          STOP RUN.
 
@@ -51,7 +51,6 @@
        400-UPDATE-RTN.
            DISPLAY "ENTER THE NEW AMOUNT"
            ACCEPT AMT-DUE-IN
-      *    MOVE WS-AMT-DUE-IN TO AMT-DUE-IN
            REWRITE IN-REC
                INVALID KEY DISPLAY "REWRITE ERROR" " " ACCT-NO-IN
            END-REWRITE.
