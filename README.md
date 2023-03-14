@@ -9,6 +9,16 @@ Wikipedia page [Link](https://en.wikipedia.org/wiki/Legacy_system).
 
 I have create this place for share my experience and some useful resources.
 
+## Otterkit project
+
+I m helping the community of Otterkit project since 2022.
+
+Otterkit COBOL is a free and open source compiler that aims to implement the ISO/IEC 1989:2023 COBOL Standard (COBOL 2023) on the .NET platform
+
+- [Otterkit GitHub](https://github.com/otterkit/otterkit)
+
+- [Otterkit COBOL Compiler](https://github.com/otterkit/otterkit)
+
 ## Some useful resources
 
 - [COBOL compiler used](https://sourceforge.net/projects/open-cobol/)
